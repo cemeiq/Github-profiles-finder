@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-color: darkblue;
+  color: white;
+}
+
+.user-form {
+  width: 100%;
+  max-width: 700px;
+}
+
+.user-form input {
+  width: 100%;
+  background-color: purple;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 1rem;
+  font-family: inherit;
+  display: block;
+}
+.user-form input::placeholder {
+  color: white;
+}
+.card {
+  background-color: purple;
+  border-radius: 10px;
+  padding: 3rem;
+  display: flex;
+  max-width: 700px;
+}
+.profile-picture {
+  border-radius: 50%;
+  border: 10px solid black;
+  height: 150px;
+  width: 150px;
+  margin-right: 10px;
+}
+
+.user-info {
+  color: white;
+  margin-left: 10px;
+}
+
+.user-info h2 {
+  margin-top: 0;
+}
+
+.user-info ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.user-info ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.user-info ul li strong {
+  margin-right: 5px;
+}
+
+.repo {
+  text-decoration: none;
+  color: white;
+  background-color: #212a72;
+  padding-left: 0.35rem;
+  padding-right: 0.35rem;
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+  margin-right: 0.35rem;
+  margin-bottom: 0.35rem;
+  display: inline-block;
+}
+
+@media (max-width: 500px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .user-form {
+    max-width: 400px;
+  }
+}
