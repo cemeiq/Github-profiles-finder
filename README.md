@@ -1,5 +1,5 @@
 # Retro Tasks
-Github profile Finder is a To Do app that looks and sounds like a game! Every two tasks you level up and if you reach level 5 you win. You also earn stars along the way. 🌟
+Github profile Finder is a web app that make use of GitHub's Developer API to search for and display basic information about Github users.
 
 - [Live Site URL](https://codesandbox.io/s/github/cemeiq/Github-profiles-finder) 🔗
 
